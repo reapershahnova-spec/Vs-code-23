@@ -1,0 +1,54 @@
+
+body {
+
+font-family: Arial, sans-serif;
+
+background: aliceblue;
+
+text-align: center;
+
+padding: 30px;
+
+}
+
+h1 {
+
+color: navy;
+
+}
+
+input {
+
+padding: 8px;
+
+margin: 5px;
+
+border: 2px solid navy;
+
+border-radius: 6px;
+
+width: 220px;
+
+}
+
+button {
+
+background: navy;
+
+color: white;
+
+padding: 10px 25px;
+
+border: none;
+
+border-radius: 20px;
+
+cursor: pointer;
+
+}
+
+#timer {
+
+color: grey;
+
+}

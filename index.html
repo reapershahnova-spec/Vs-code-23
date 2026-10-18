@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      
+<h1>Lucky Draw</h1>
+
+<p>Enter your name and guess a number to win!</p>
+
+<input type="text" id="name" placeholder="Your name" required><br>
+
+<p id="msg-name"></p>
+
+<input type="number" id="guess" placeholder="Guess a number (1 to 5)" min="1" max="5" required><br>
+
+<p id="msg-guess"></p>
+
+<button onclick="checkForm()">Try My Luck!</button>
+
+<p id="result"></p>
+
+<p id="timer"></p>
+
+      <script src="script.js"></script>
+  </body>
+</html>
